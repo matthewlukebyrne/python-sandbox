@@ -3,6 +3,9 @@
 # Create class
 class User:
   # Constructor
+  # __init__ 
+  # In python the "this" keyword for class is now "self"
+  # self needs to be also passed into the constructor
   def __init__(self, name, email, age):
     self.name = name
     self.email = email
@@ -14,7 +17,7 @@ class User:
   def has_birthday(self):
     self.age += 1
 
-# Customer class
+# Customer class (Extends the above constructor and class of user)
 class Customer(User):
   def __init__(self, name, email, age):
     self.name = name
@@ -28,16 +31,16 @@ class Customer(User):
   def greeting(self):
     return f'My name is {self.name} and I am {self.age} and I owe a balance of {self.balance}'
 
-# Init user object
-brad = User('Brad Traversy', 'brad@gmail.com', 37)
+# Init user object above at the top
+matt = User('Matt Byrne', 'matt@gmail.com', 29)
 janet = User('Janet Williams', 'janet@gmail.com', 27)
 
 # Edit property
-brad.age = 38
+matt.age = 38
 
 janet.has_birthday()
 
-# Call method
+# Call method (Methods have to have parentheses / brackets)
 print(janet.greeting())
 
 # Init customer

@@ -1,4 +1,6 @@
 # Python has functions for creating, reading, updating, and deleting files.
+# Access read write append flags as letters
+
 
 # Open a file
 myFile = open('myfile.txt', 'w')
@@ -10,7 +12,7 @@ print('Opening Mode: ', myFile.mode)
 
 # Write to file
 myFile.write('I love Python')
-myFile.write(' and JavaScript')
+myFile.write(' and JavaScript babyyyyy')
 myFile.close()
 
 # Append to file

@@ -2,31 +2,32 @@
 
 people = ['John', 'Will', 'Janet', 'Karen']
 
-# Simple for loop
+# Simple for loop (access in)
 # for person in people:
 #   print('Current person: ', person)
 
-# Break out
+# Break out of loop if person is Janet (If you were to move the positioning of the break also)
 # for person in people:
 #   if person == 'Janet':
 #     break
 #   print('Current person: ', person)
+  
 
-# Continue
+# Continue (Skips and continues on)
 # for person in people:
 #   if person == 'Janet':
 #     continue
 #   print('Current person: ', person)
 
-# Range
+# Range (Used to loop through a specific number of times) (Kinda like a tradiontal for loop)
 # for i in range(len(people)):
 #   print('Current Person: ', people[i])
 
 # for i in range(0, 11):
 #   print('Number ', i)
 
-# While loops execute a set of statements as long as a condition is true.
+# While loops execute a set of statements as long as a condition is true. (Very familar!)
 count = 0
 while count <= 10:
   print('Count: ', count)
-  count += 1
+  count = count + 1

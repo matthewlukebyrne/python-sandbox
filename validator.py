@@ -1,5 +1,5 @@
 # Example of a custom module to be imported
-
+# This imports a core module and uses it in a custom function which validates a email address
 import re
 
 

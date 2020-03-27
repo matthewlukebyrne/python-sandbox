@@ -8,11 +8,12 @@ userJSON = '{"first_name": "John", "last_name": "Doe", "age": 30}'
 # Parse to dict
 user = json.loads(userJSON)
 
-print(user)
-print(user['first_name'])
+print(user) #prints user
+print(user['first_name']) #print out particular
+
+
 
 car = {'make': 'Ford', 'model': 'Mustang', 'year': 1970}
-
+# Dict to parse
 carJSON = json.dumps(car)
-
 print(carJSON)

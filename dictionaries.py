@@ -1,6 +1,6 @@
 # A Dictionary is a collection which is unordered, changeable and indexed. No duplicate members.
 
-# Very simliar to Javascript object litreals
+# Very simliar to Javascript object litreals JSON
 
 # Simple dictionary
 # dict_keys = (['first_name', 'last_name', 'age', 'phone'])
