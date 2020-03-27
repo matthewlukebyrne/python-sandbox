@@ -1,10 +1,16 @@
 # A Dictionary is a collection which is unordered, changeable and indexed. No duplicate members.
 
-# Simple dict
+# Very simliar to Javascript object litreals
+
+# Simple dictionary
+# dict_keys = (['first_name', 'last_name', 'age', 'phone'])
+# dict_items =  ([('first_name', 'John'), ('last_name', 'Doe'), ('age', 30), ('phone', '555-555-5555')])
+
+
 person = {
-  'first_name': 'John',
-  'last_name': 'Doe',
-  'age': 30
+    'first_name': 'John',
+    'last_name': 'Doe',
+    'age': 30
 }
 
 # Using a constructor
@@ -12,6 +18,7 @@ person = {
 
 # Access value
 print(person['first_name'])
+# Get Method
 print(person.get('last_name'))
 
 # Add key/value
@@ -31,7 +38,7 @@ person2['city'] = 'Boston'
 del(person['age'])
 person.pop('phone')
 
-# Clear
+# Clear (becomes empty curly braces)
 person.clear()
 
 # Get length
@@ -41,7 +48,9 @@ print(person)
 
 # List of dict
 people = [
-  {'name': 'Martha', 'age': 40},
-  {'name': 'Bob', 'age': 20}
+    {'name': 'Martha', 'age': 40},
+    {'name': 'Bob', 'age': 20}
 ]
+
+# The name for Bob
 print(people[1]['name'])

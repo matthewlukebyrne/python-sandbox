@@ -1,29 +1,32 @@
 # Strings in python are surrounded by either single or double quotation marks. Let's look at string formatting and some string methods
 
-name = 'Brad'
-age = 37
+name = 'Matt'
+age = 29
 
-# Concatenate
-# print('Hello I am ' + name + ' and I am ' + str(age))
-
+# Concatenate (Join together data types with casting)
+# Without cast throws a error
+print('Hello I am ' + name + ' and I am ' + str(age))
 
 # String Formatting
 
-# Arguments by position
-# print('{}, {}, {}'.format('a', 'b', 'c'))
-# print('{1}, {2}, {0}'.format('a', 'b', 'c'))
+# Arguments by position (.format)
+print('{}, {}, {}'.format('a', 'b', 'c'))
+# b, c, a
+print('{1}, {2}, {0}'.format('a', 'b', 'c'))
 
 # Arguments by name
-# print('My name is {name} and I am {age}'.format(name=name, age=age))
+print('My name is {name} and I am {age}'.format(name=name, age=age))
 
-# F-Strings (only in 3.6+)
-# print(f'My name is {name} and I am {age}')
+# F-Strings (only in 3.6+ version) prob the better way to do it (preferred)
+print(f'My name is {name} and I am {age}')
 
 # String Methods
 
-s = 'hello there world'
+s = 'Hello there world'
 
-# Capitalize first letter
+
+# All methods have () parentheses
+# Capitalize first letter 
 print(s.capitalize())
 
 # Make all uppercase
@@ -35,11 +38,11 @@ print(s.lower())
 # Swap case
 print(s.swapcase())
 
-# Get length
+# Get length (Similar java function)
 print(len(s))
 
 # Replace
-print(s.replace('world', 'everyone'))
+print(s.replace('world', 'lisa'))
 
 # Count
 sub = "h"

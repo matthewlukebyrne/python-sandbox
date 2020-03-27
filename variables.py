@@ -14,22 +14,27 @@ VARIABLE RULES:
   - Can have numbers but can not start with one
 """
 
+# In python you dont use semi-colons (so stop using them!)
+
 # x = 1             # int
 # y = 2.5           # float
-# name = 'Brad'     # string
+# name = 'Matt'     # string
 # is_cool = True    # bool
 
 # Multiple assigment
-x, y, name, is_cool = (1, 2.5, 'Brad', True)
+x, y, name, is_cool = (1, 2.5, 'Matt', True)
 
+# Print x without brackets works!
 print(x, y, name, is_cool)
 
 # Basic math
 a = x + y
 
-# Casting
+# Casting (Helping strings go with other strings)
 x = str(x)
+# Changes to a int
 y = int(y)
+# Changes to a float
 z = float(y)
 
 # Check type
